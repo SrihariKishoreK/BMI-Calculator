@@ -1,2 +1,2 @@
 # BMI-Calculator
-Calculates the Body Mass Index(BMI) automatically fter entering the value itself with suotable background color
+Calculates the Body Mass Index(BMI) automatically after entering the value itself with suotable background color
