@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <title>BMI Calculator</title>
+    <body>
+        <h1>BMI Calculator</h1>
+<h3>Weight</h3>
+<input id=weight type=number value=150 oninput=slider.value=value;bmi()>
+<input id=slider type=range min=0 max=650 value=185 oninput=weight.value=value;bmi()>
+<h3>Height</h3>
+<span>Feet</span>
+<input id=feet type=number value=6 onchange=bmi()>
+<span>Inches</span>
+<input id=inches type=number value=0 onchange=bmi()>
+<output></output>
+<script src="script.js"></script>
+    </body>
+</html>
